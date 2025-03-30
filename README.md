@@ -30,6 +30,9 @@
 - **Projects**: カンバンやWBSで進捗管理
 - **ドキュメント**: 設計方針や検証ログをまとめる場所（必要があれば）
 
+## アーキテクチャ図
+![CI/CD Architecture](./docs/CICD-pipeline-architecture.png)
+
 ## 🔧 メモ
 
 - ここはコード置き場ではない。コードは↑の各リポジトリに書く。
