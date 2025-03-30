@@ -1,7 +1,7 @@
 # cicd-prj
 
-CI/CDまわりの計画・進行管理用。  
-個人プロジェクト全体のタスク整理や検証ログもここにまとめる。
+このリポジトリは、CI/CDまわりの計画・進行管理用。  
+個人プロジェクト全体のタスク整理や検証ログもここにまとめていく。
 
 ## ✅ このリポジトリの目的
 
@@ -15,6 +15,14 @@ CI/CDまわりの計画・進行管理用。
 |------------|------|
 | [test-go-webapp-repo](https://github.com/MultipleCoffee/cicd-practice) | パイプライン動作確認用のGoアプリ |
 | [pipeline-scripts-repo](https://github.com/MultipleCoffee/jenkins-pipeline-scripts) | JenkinsfileなどCI/CD用スクリプト群 |
+
+### 🔍 リポジトリごとの役割とIssue管理方針
+
+| リポジトリ名 | 役割 | Issue管理方針 |
+|-------------|------|----------------|
+| `test-go-webapp-repo` | アプリの実装・テスト | 技術的なIssueやPR単位のタスク管理 |
+| `jenkins-pipeline-scripts` | Jenkinsfileなどのスクリプト管理 | パイプラインの構築・修正タスク |
+| `cicd-prj`（このリポジトリ） | 計画・設計・進捗全体の管理 | 上位タスク・プロジェクトテーマ・横断的なタスクの整理 |
 
 ## 🗂 主な使い方
 
